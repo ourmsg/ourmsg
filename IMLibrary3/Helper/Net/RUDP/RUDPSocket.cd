@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Helper.Net.RUDP.RUDPSocketException" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\RUDPSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helper.Net.RUDP.RUDPSocket">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\RUDPSocket.cs</FileName>
+      <HashCode>CMQAggoAAWBYTEnkAEYCD5gAgAAAAAIQAAECAODE8FE=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_physical" />
+      <Field Name="SACKWindow" />
+      <Field Name="ControlWindow" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_physical" Type="Helper.Net.RUDP.PhysicalSocket" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="2.375" />
+        <Point X="2.625" Y="2.375" />
+        <Point X="2.625" Y="3.625" />
+        <Point X="4.443" Y="3.625" />
+        <Point X="4.443" Y="5.25" />
+      </Path>
+    </AssociationLine>
+  </Class>
+  <Class Name="Helper.Net.RUDP.SACKWindow" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\SACK\SACKWindow.cs</FileName>
+      <HashCode>CAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helper.Net.RUDP.RUDPControlWindow">
+    <Position X="4" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Window\RUDPControlWindow.cs</FileName>
+      <HashCode>AQQIkAAAgABAAAAAAAAQAAABAAAAAIAAAAEACAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_slidingWindow" />
+      <Field Name="_congestionWindow" />
+    </ShowAsAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Helper.Net.RUDP.CongestionWindow">
+    <Position X="7.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Window\CongestionWindow.cs</FileName>
+      <HashCode>AAAIgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Helper.Net.RUDP.SWSlot" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Window\SlidingWindow.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helper.Net.RUDP.SlidingWindow">
+    <Position X="7.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Window\SlidingWindow.cs</FileName>
+      <HashCode>AAQMkAAAAABAAEEAAAAABBgBAAAAAIAQAAAACgIAAKg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_sendSlots" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Helper.Net.RUDP.PhysicalSocket">
+    <Position X="3.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Stack\PhysicalSocket.cs</FileName>
+      <HashCode>CAAAoAIAQCBAgAgEAAACBQBAAAAAAAQAgAEAQBCAIAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Helper.Net.RUDP.RUDPStack" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Stack\RUDPStack.cs</FileName>
+      <HashCode>IAQYAKaIBLAIAAgCIAUUFSBBBAAlAhAAAFgJgBGIQBg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Helper.Net.RUDP.RUDPSocketStatus" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\RUDPSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAQAACAAAAAAEABAAAAAAAAAAIAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Helper.Net.RUDP.RUDPSocketError" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\RUDPSocket.cs</FileName>
+      <HashCode>AARAAAEEAAAAABBABAAAAQAAAgAAACAAADAAABAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

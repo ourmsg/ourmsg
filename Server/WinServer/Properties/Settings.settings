@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OurMsgServer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TcpMessagePort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6500</Value>
+    </Setting>
+    <Setting Name="SqlConStr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=10.211.1.80;User id=sa;password=liggyi;Initial Catalog=OurMsg;</Value>
+    </Setting>
+    <Setting Name="ImageServerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ImageServer/</Value>
+    </Setting>
+    <Setting Name="TcpFilePort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6000</Value>
+    </Setting>
+    <Setting Name="UdpFilePort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">53</Value>
+    </Setting>
+    <Setting Name="UdpAVPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">54</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

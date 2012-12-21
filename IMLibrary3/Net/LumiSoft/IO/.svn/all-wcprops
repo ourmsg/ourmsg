@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/LumiSoft_Net/!svn/ver/384/trunk/Net/IO
+END
+FifoBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/49/trunk/Net/IO/FifoBuffer.cs
+END
+QuotedPrintableStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/327/trunk/Net/IO/QuotedPrintableStream.cs
+END
+JunkingStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LumiSoft_Net/!svn/ver/28/trunk/Net/IO/JunkingStream.cs
+END
+MemoryStreamEx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/249/trunk/Net/IO/MemoryStreamEx.cs
+END
+Base64.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LumiSoft_Net/!svn/ver/30/trunk/Net/IO/Base64.cs
+END
+LineSizeExceededException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IO/LineSizeExceededException.cs
+END
+ReadWriteControlledStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IO/ReadWriteControlledStream.cs
+END
+SizeExceededAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IO/SizeExceededAction.cs
+END
+Base64Stream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/31/trunk/Net/IO/Base64Stream.cs
+END
+SmartStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/483/trunk/Net/IO/SmartStream.cs
+END
+MultiStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IO/MultiStream.cs
+END
+IncompleteDataException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IO/IncompleteDataException.cs
+END
+PartialStream.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IO/PartialStream.cs
+END
+DataSizeExceededException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/IO/DataSizeExceededException.cs
+END

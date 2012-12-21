@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Helper.Net.RUDP.SACKSlot">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\SACK\SACKWindow.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helper.Net.RUDP.SACKWindow">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\SACK\SACKWindow.cs</FileName>
+      <HashCode>AAAAAAAAAIACAAAAAAAAAAIAAAAAAAAAAAAAAAAAACA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_slots" />
+    </ShowAsCollectionAssociation>
+  </Class>
+</ClassDiagram>

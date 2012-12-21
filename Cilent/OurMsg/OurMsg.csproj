@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{066929C4-7D58-47DF-855F-8C46E975196B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OurMsg</RootNamespace>
+    <AssemblyName>OurMsg2012</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>community.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\OurMsg2012.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OurMsg2012.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|Itanium'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisLogFile>bin\OurMsg2012.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Itanium'">
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OurMsg2012.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\OurMsg2012.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\OurMsg2012.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;D:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BSE.Windows.Forms">
+      <HintPath>..\..\..\..\控件源码\BSE.Windows\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="CaptureImageTool">
+      <HintPath>bin\CaptureImageTool.dll</HintPath>
+    </Reference>
+    <Reference Include="H264Decoder.NET">
+      <HintPath>..\..\..\..\..\Streamcoders\MediaSuiteNET_1.5.892_Trial\H264Decoder.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="H264Encoder.NET">
+      <HintPath>..\..\..\..\..\Streamcoders\MediaSuiteNET_1.5.892_Trial\H264Encoder.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="IMLibrary3">
+      <HintPath>..\..\IMLibrary3\bin\Debug\IMLibrary3.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaBase">
+      <HintPath>..\..\..\..\..\Streamcoders\MediaSuiteNET_1.5.892_Trial\MediaBase.dll</HintPath>
+    </Reference>
+    <Reference Include="RTP.NET, Version=1.5.892.23286, Culture=neutral, PublicKeyToken=d264bf7150202654, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\RTP.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="StreamTools.NET">
+      <HintPath>..\..\..\..\..\Streamcoders\MediaSuiteNET_1.5.892_Trial\StreamTools.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\IMLibrary3\bin\Debug\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AV\BaseClass\AudioDevice.cs" />
+    <Compile Include="AV\BaseClass\DrawDib.cs" />
+    <Compile Include="AV\BaseClass\G972.cs" />
+    <Compile Include="AV\BaseClass\ICM.cs" />
+    <Compile Include="AV\BaseClass\Mixer.cs" />
+    <Compile Include="AV\BaseClass\UT.cs" />
+    <Compile Include="AV\BaseClass\utiilities.cs" />
+    <Compile Include="AV\BaseClass\VideoCapturer.cs" />
+    <Compile Include="AV\BaseClass\VideoSize.cs" />
+    <Compile Include="AV\BaseClass\WaveIn.cs" />
+    <Compile Include="AV\BaseClass\WaveOut.cs" />
+    <Compile Include="AV\BaseClass\YV12TORGB24.cs" />
+    <Compile Include="AV\Controls\AudioCapturer.cs" />
+    <Compile Include="AV\Controls\AudioEncoder.cs" />
+    <Compile Include="AV\Controls\AudioRender.cs" />
+    <Compile Include="AV\Controls\AVComponent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AV\Controls\AVComponent.Designer.cs">
+      <DependentUpon>AVComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AV\Controls\VideoCapturer.cs" />
+    <Compile Include="AV\Controls\VideoEncoder.cs" />
+    <Compile Include="AV\Controls\VideoRender.cs" />
+    <Compile Include="AV\FrameTransmit.cs" />
+    <Compile Include="AV\Media\AudioIn.cs" />
+    <Compile Include="AV\Media\AudioInDevice.cs" />
+    <Compile Include="AV\Media\AudioOut.cs" />
+    <Compile Include="AV\Media\AudioOutDevice.cs" />
+    <Compile Include="AV\Media\Codec\Audio\AudioCodec.cs" />
+    <Compile Include="AV\Media\Codec\Audio\G711_alaw.cs" />
+    <Compile Include="AV\Media\Codec\Audio\G711_ulaw.cs" />
+    <Compile Include="AV\Media\Codec\Codec.cs" />
+    <Compile Include="AV\Media\MediaStream.cs" />
+    <Compile Include="AV\Media\MultimediaSession.cs" />
+    <Compile Include="AV\Media\Wave\native\MMSYSERR.cs" />
+    <Compile Include="AV\Media\Wave\native\WavConstants.cs" />
+    <Compile Include="AV\Media\Wave\native\WAVEFORMATEX.cs" />
+    <Compile Include="AV\Media\Wave\native\WAVEHDR.cs" />
+    <Compile Include="AV\Media\Wave\native\WAVEOUTCAPS.cs" />
+    <Compile Include="AV\Media\Wave\native\WavFormat.cs" />
+    <Compile Include="AV\Media\Wave\native\WavMethods.cs" />
+    <Compile Include="AV\Media\Wave\WaveIn.cs" />
+    <Compile Include="AV\Media\Wave\WaveOut.cs" />
+    <Compile Include="AV\Media\Wave\WavInDevice.cs" />
+    <Compile Include="AV\Media\Wave\WavOutDevice.cs" />
+    <Compile Include="Controls\ClockWating.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ControlPanel.Designer.cs">
+      <DependentUpon>ControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FileTransmit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FileTransmit.Designer.cs">
+      <DependentUpon>FileTransmit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MessagePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MessagePanel.Designer.cs">
+      <DependentUpon>MessagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserLoginPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UserLoginPanel.Designer.cs">
+      <DependentUpon>UserLoginPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\webUpdate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\webUpdate.designer.cs">
+      <DependentUpon>webUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\OpeRecordDB.cs" />
+    <Compile Include="Forms\FormDownOrganization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDownOrganization.Designer.cs">
+      <DependentUpon>FormDownOrganization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUsersToRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUsersToRoom.Designer.cs">
+      <DependentUpon>FormUsersToRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormCreateRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCreateRoom.designer.cs">
+      <DependentUpon>FormCreateRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDataManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDataManage.designer.cs">
+      <DependentUpon>FormDataManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTalkRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTalkRoom.Designer.cs">
+      <DependentUpon>FormTalkRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNotice.Designer.cs">
+      <DependentUpon>FormNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSendNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSendNotice.Designer.cs">
+      <DependentUpon>FormSendNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="Controls\video.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\video.Designer.cs">
+      <DependentUpon>video.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SelfFaceImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SelfFaceImage.Designer.cs">
+      <DependentUpon>SelfFaceImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTalkUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTalkUser.Designer.cs">
+      <DependentUpon>FormTalkUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IM3Winform\FormGroupVcard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IM3Winform\FormGroupVcard.designer.cs">
+      <DependentUpon>FormGroupVcard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IM3Winform\formSelectGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IM3Winform\formSelectGroup.designer.cs">
+      <DependentUpon>formSelectGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IM3Winform\FormUserVcard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IM3Winform\FormUserVcard.designer.cs">
+      <DependentUpon>FormUserVcard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AV\BaseClass\DrawDib.resx">
+      <DependentUpon>DrawDib.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AV\BaseClass\ICM.resx">
+      <DependentUpon>ICM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AV\Controls\AVComponent.resx">
+      <DependentUpon>AVComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ControlPanel.resx">
+      <DependentUpon>ControlPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FileTransmit.resx">
+      <DependentUpon>FileTransmit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MessagePanel.resx">
+      <DependentUpon>MessagePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SelfFaceImage.resx">
+      <DependentUpon>SelfFaceImage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UserLoginPanel.resx">
+      <DependentUpon>UserLoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\video.resx">
+      <DependentUpon>video.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\webUpdate.resx">
+      <DependentUpon>webUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDownOrganization.resx">
+      <DependentUpon>FormDownOrganization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUsersToRoom.resx">
+      <DependentUpon>FormUsersToRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormCreateRoom.resx">
+      <DependentUpon>FormCreateRoom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDataManage.resx">
+      <DependentUpon>FormDataManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTalkRoom.resx">
+      <DependentUpon>FormTalkRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNotice.resx">
+      <DependentUpon>FormNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTalkUser.resx">
+      <DependentUpon>FormTalkUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSendNotice.resx">
+      <DependentUpon>FormSendNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="IM3Winform\FormGroupVcard.resx">
+      <DependentUpon>FormGroupVcard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IM3Winform\formSelectGroup.resx">
+      <DependentUpon>formSelectGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IM3Winform\FormUserVcard.resx">
+      <DependentUpon>FormUserVcard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="community.ico" />
+    <None Include="Resources\wite.gif" />
+    <None Include="Resources\face.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

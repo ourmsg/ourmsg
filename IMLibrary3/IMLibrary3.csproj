@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A703E818-8776-4228-A4F7-45897052BCC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IMLibrary3</RootNamespace>
+    <AssemblyName>IMLibrary3</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\IMLibrary3.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\SQLite.NET\bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Protocol\UDPFrame.cs" />
+    <Compile Include="Controls\RichTextBox\API.cs" />
+    <Compile Include="Controls\RichTextBox\CHARRANGE.cs" />
+    <Compile Include="Controls\RichTextBox\CLIPFORMAT.cs" />
+    <Compile Include="Controls\RichTextBox\COMRECT.cs" />
+    <Compile Include="Controls\RichTextBox\DVASPECT.cs" />
+    <Compile Include="Controls\RichTextBox\ExRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RichTextBox\FORMATETC.cs" />
+    <Compile Include="Controls\RichTextBox\GETCLIPBOARDDATAFLAGS.cs" />
+    <Compile Include="Controls\RichTextBox\GETOBJECTOPTIONS.cs" />
+    <Compile Include="Controls\RichTextBox\IAdviseSink.cs" />
+    <Compile Include="Controls\RichTextBox\IDataObject.cs" />
+    <Compile Include="Controls\RichTextBox\IEnumFORMATETC.cs" />
+    <Compile Include="Controls\RichTextBox\IEnumOLEVERB.cs" />
+    <Compile Include="Controls\RichTextBox\IEnumSTATDATA.cs" />
+    <Compile Include="Controls\RichTextBox\IEnumSTATSTG.cs" />
+    <Compile Include="Controls\RichTextBox\ILockBytes.cs" />
+    <Compile Include="Controls\RichTextBox\IOleClientSite.cs" />
+    <Compile Include="Controls\RichTextBox\IOleContainer.cs" />
+    <Compile Include="Controls\RichTextBox\IOleObject.cs" />
+    <Compile Include="Controls\RichTextBox\IRichEditOle.cs" />
+    <Compile Include="Controls\RichTextBox\ISequentialStream.cs" />
+    <Compile Include="Controls\RichTextBox\IStorge.cs" />
+    <Compile Include="Controls\RichTextBox\IStream.cs" />
+    <Compile Include="Controls\RichTextBox\MyGifPicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RichTextBox\NativeMethods.cs" />
+    <Compile Include="Controls\RichTextBox\REOBJECT.cs" />
+    <Compile Include="Controls\RichTextBox\REOOBJECTFLAGS.cs" />
+    <Compile Include="Controls\RichTextBox\STATDATA.cs" />
+    <Compile Include="Controls\RichTextBox\STGM.cs" />
+    <Compile Include="Controls\RichTextBox\STGMEDIUM.cs" />
+    <Compile Include="Controls\RichTextBox\tagLOGPALETTE.cs" />
+    <Compile Include="Controls\RichTextBox\tagOLEVERB.cs" />
+    <Compile Include="Controls\RichTextBox\TYMED.cs" />
+    <Compile Include="Controls\ShowType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ShowType.designer.cs">
+      <DependentUpon>ShowType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TaskbarNotifier\TaskbarNotifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data\SQLiteDBHelper.cs" />
+    <Compile Include="fileTransmit\FileIcon.cs" />
+    <Compile Include="fileTransmit\FileServer.cs" />
+    <Compile Include="fileTransmit\FileTransmitBase.cs" />
+    <Compile Include="fileTransmit\p2pFileClient.cs" />
+    <Compile Include="fileTransmit\ImageFileClient.cs" />
+    <Compile Include="IO\OpFile.cs" />
+    <Compile Include="Net\LumiSoft\AsyncOP.cs" />
+    <Compile Include="Net\LumiSoft\AsyncOP_State.cs" />
+    <Compile Include="Net\LumiSoft\BindInfoProtocol.cs" />
+    <Compile Include="Net\LumiSoft\CircleCollection.cs" />
+    <Compile Include="Net\LumiSoft\EventArgs.cs" />
+    <Compile Include="Net\LumiSoft\ExceptionEventArgs.cs" />
+    <Compile Include="Net\LumiSoft\IAsyncOP.cs" />
+    <Compile Include="Net\LumiSoft\IO\Base64.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\IO\Base64Stream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\IO\DataSizeExceededException.cs" />
+    <Compile Include="Net\LumiSoft\IO\FifoBuffer.cs" />
+    <Compile Include="Net\LumiSoft\IO\IncompleteDataException.cs" />
+    <Compile Include="Net\LumiSoft\IO\JunkingStream.cs" />
+    <Compile Include="Net\LumiSoft\IO\LineSizeExceededException.cs" />
+    <Compile Include="Net\LumiSoft\IO\MemoryStreamEx.cs" />
+    <Compile Include="Net\LumiSoft\IO\MultiStream.cs" />
+    <Compile Include="Net\LumiSoft\IO\PartialStream.cs" />
+    <Compile Include="Net\LumiSoft\IO\QuotedPrintableStream.cs" />
+    <Compile Include="Net\LumiSoft\IO\ReadWriteControlledStream.cs" />
+    <Compile Include="Net\LumiSoft\IO\SizeExceededAction.cs" />
+    <Compile Include="Net\LumiSoft\IO\SmartStream.cs" />
+    <Compile Include="Net\LumiSoft\IPBindInfo.cs" />
+    <Compile Include="Net\LumiSoft\Net_Utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\SslMode.cs" />
+    <Compile Include="Net\LumiSoft\TCPServer.cs" />
+    <Compile Include="Net\LumiSoft\TCPServerSession.cs" />
+    <Compile Include="Net\LumiSoft\TCP\TCP_Client.cs" />
+    <Compile Include="Net\LumiSoft\TCP\TCP_Server.cs" />
+    <Compile Include="Net\LumiSoft\TCP\TCP_ServerSession.cs" />
+    <Compile Include="Net\LumiSoft\TCP\TCP_ServerSessionEventArgs.cs" />
+    <Compile Include="Net\LumiSoft\TCP\TCP_Session.cs" />
+    <Compile Include="Net\LumiSoft\TCP\TCP_SessionCollection.cs" />
+    <Compile Include="Net\LumiSoft\TCPClient.cs" />
+    <Compile Include="Net\LumiSoft\TimerEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\UDPServer.cs" />
+    <Compile Include="Net\LumiSoft\UDP\UDP_DataReceiver.cs" />
+    <Compile Include="Net\LumiSoft\UDP\UDP_e_PacketReceived.cs" />
+    <Compile Include="Net\LumiSoft\UDP\UDP_Server.cs" />
+    <Compile Include="Net\LumiSoft\_AsyncResultState.cs" />
+    <Compile Include="Net\LumiSoft\_Obsolete\AuthHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\AuthType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\LineReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\Log_EventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\ReadException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\ReadLineEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\ReadLine_EventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\ReadToStream_EventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SaslAuthTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\ServersCore\commonDelegates.cs" />
+    <Compile Include="Net\LumiSoft\_Obsolete\ServersCore\Error_EventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\ServersCore\SocketBufferedWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\ServersCore\ValidateIP_EventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SocketCallBackResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SocketEx.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SocketLogEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SocketLogEntryType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SocketLogger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SocketServer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\SocketServerSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\StreamHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\StreamLineReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\WriteStream_EventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Net\LumiSoft\_Obsolete\Write_EventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Organization\exGroup.cs" />
+    <Compile Include="Organization\exRoom.cs" />
+    <Compile Include="Organization\exUser.cs" />
+    <Compile Include="Organization\GroupVcard.cs" />
+    <Compile Include="Organization\UserVcard.cs" />
+    <Compile Include="Properties\PropertyGirdBaseObject.cs" />
+    <Compile Include="Protocol\Auth.cs" />
+    <Compile Include="Protocol\AVMsg.cs" />
+    <Compile Include="Protocol\ChangePassword.cs" />
+    <Compile Include="Protocol\ChangeRoom.cs" />
+    <Compile Include="Protocol\Element.cs" />
+    <Compile Include="Protocol\Enmu\NatClass.cs" />
+    <Compile Include="Protocol\Enmu\MessageType.cs" />
+    <Compile Include="Protocol\Enmu\ShowType.cs" />
+    <Compile Include="Globle.cs" />
+    <Compile Include="Protocol\P2PFileMsg.cs" />
+    <Compile Include="Protocol\UDPPacket.cs" />
+    <Compile Include="Protocol\ImageFileMsg.cs" />
+    <Compile Include="Protocol\Message.cs" />
+    <Compile Include="Protocol\OrgVersion.cs" />
+    <Compile Include="Protocol\Presence.cs" />
+    <Compile Include="Protocol\Enmu\type.cs" />
+    <Compile Include="Protocol\Factory.cs" />
+    <Compile Include="Operation\Calculate.cs" />
+    <Compile Include="Components\WebFile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\WebFile.designer.cs">
+      <DependentUpon>WebFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\OleDbHelper.cs" />
+    <Compile Include="Net\UDP\SockEventArgs.cs" />
+    <Compile Include="Net\UDP\SockUDP.cs" />
+    <Compile Include="Net\UDP\SubPackage.cs" />
+    <Compile Include="Net\UDP\SubPackageBytes.cs" />
+    <Compile Include="Operation\ConvertXmlData.cs" />
+    <Compile Include="Operation\TextEncoder.cs" />
+    <Compile Include="Organization\Room.cs" />
+    <Compile Include="Organization\Group.cs" />
+    <Compile Include="Organization\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protocol\Roster.cs" />
+    <Compile Include="fileTransmit\TFileInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\DES.cs" />
+    <Compile Include="Security\Hasher.cs" />
+    <Compile Include="Server\ImageFileServer.cs" />
+    <Compile Include="Server\P2PAVServer.cs" />
+    <Compile Include="Server\P2PFileServer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\ShowType.resx">
+      <DependentUpon>ShowType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TaskbarNotifier\TaskbarNotifier.resx">
+      <DependentUpon>TaskbarNotifier.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Resources\close.bmp" />
+    <None Include="Resources\close2.bmp" />
+    <None Include="Resources\skin.bmp" />
+    <None Include="Resources\skin2.bmp" />
+    <None Include="Resources\skin3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AVprotocol\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

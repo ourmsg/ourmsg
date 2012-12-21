@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Helper.Net.RUDP.RUDPStack">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Stack\RUDPStack.cs</FileName>
+      <HashCode>IAQYAKaIBLAIAAgCIAUUFSBBBAAlAhAAAFgJgBGIQBg=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_physicals" />
+    </ShowAsCollectionAssociation>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Helper.Net.RUDP.PhysicalSocket">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Stack\PhysicalSocket.cs</FileName>
+      <HashCode>CAAAoAIAQCBAgAgEAAACBQBAAAAAAAQAgAEAQBCAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Helper.Net.RUDP.DisconnectionReason">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helper\Net\RUDP\Stack\RUDPStack.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

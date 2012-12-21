@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/ServersCore
+END
+ValidateIP_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/ServersCore/ValidateIP_EventArgs.cs
+END
+commonDelegates.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/ServersCore/commonDelegates.cs
+END
+Error_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/ServersCore/Error_EventArgs.cs
+END
+SocketBufferedWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/LumiSoft_Net/!svn/ver/69/trunk/Net/_Obsolete/ServersCore/SocketBufferedWriter.cs
+END

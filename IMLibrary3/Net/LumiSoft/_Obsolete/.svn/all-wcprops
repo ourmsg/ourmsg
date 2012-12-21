@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/LumiSoft_Net/!svn/ver/404/trunk/Net/_Obsolete
+END
+SocketLogEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/SocketLogEntry.cs
+END
+SocketLogEntryType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/SocketLogEntryType.cs
+END
+SocketServer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/67/trunk/Net/_Obsolete/SocketServer.cs
+END
+SmtpClientEx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/_Obsolete/SmtpClientEx.cs
+END
+SocketServerSession.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/66/trunk/Net/_Obsolete/SocketServerSession.cs
+END
+WriteStream_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/WriteStream_EventArgs.cs
+END
+SocketEx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/LumiSoft_Net/!svn/ver/68/trunk/Net/_Obsolete/SocketEx.cs
+END
+StreamLineReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/StreamLineReader.cs
+END
+SocketLogger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/SocketLogger.cs
+END
+ReadException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/131/trunk/Net/_Obsolete/ReadException.cs
+END
+StreamHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LumiSoft_Net/!svn/ver/131/trunk/Net/_Obsolete/StreamHelper.cs
+END
+Net_Core.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/203/trunk/Net/_Obsolete/Net_Core.cs
+END
+Log_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/Log_EventArgs.cs
+END
+ReadLine_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/131/trunk/Net/_Obsolete/ReadLine_EventArgs.cs
+END
+AuthHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/292/trunk/Net/_Obsolete/AuthHelper.cs
+END
+ReadLineEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/LumiSoft_Net/!svn/ver/493/trunk/Net/_Obsolete/ReadLineEventArgs.cs
+END
+AuthType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/404/trunk/Net/_Obsolete/AuthType.cs
+END
+SocketCallBackResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/SocketCallBackResult.cs
+END
+ReadToStream_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/ReadToStream_EventArgs.cs
+END
+Write_EventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/148/trunk/Net/_Obsolete/Write_EventArgs.cs
+END
+DnsCache.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/LumiSoft_Net/!svn/ver/383/trunk/Net/_Obsolete/DnsCache.cs
+END
+SaslAuthTypes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/_Obsolete/SaslAuthTypes.cs
+END
+LineReader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/LumiSoft_Net/!svn/ver/493/trunk/Net/_Obsolete/LineReader.cs
+END

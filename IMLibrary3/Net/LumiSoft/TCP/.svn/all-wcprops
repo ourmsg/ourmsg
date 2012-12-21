@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/LumiSoft_Net/!svn/ver/434/trunk/Net/TCP
+END
+TCP_Server.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/434/trunk/Net/TCP/TCP_Server.cs
+END
+TCP_ServerSessionEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/TCP/TCP_ServerSessionEventArgs.cs
+END
+TCP_ServerSession.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LumiSoft_Net/!svn/ver/475/trunk/Net/TCP/TCP_ServerSession.cs
+END
+TCP_Client.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/469/trunk/Net/TCP/TCP_Client.cs
+END
+TCP_SessionCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/LumiSoft_Net/!svn/ver/111/trunk/Net/TCP/TCP_SessionCollection.cs
+END
+TCP_Session.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/TCP/TCP_Session.cs
+END

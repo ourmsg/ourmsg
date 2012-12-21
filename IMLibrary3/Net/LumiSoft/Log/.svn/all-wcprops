@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/LumiSoft_Net/!svn/ver/387/trunk/Net/Log
+END
+WriteLogEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Log/WriteLogEventArgs.cs
+END
+Logger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/LumiSoft_Net/!svn/ver/387/trunk/Net/Log/Logger.cs
+END
+LogEntry.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Log/LogEntry.cs
+END
+LogEntryType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LumiSoft_Net/!svn/ver/3/trunk/Net/Log/LogEntryType.cs
+END
